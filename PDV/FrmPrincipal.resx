@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="MenuForm.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>21, 15</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="MenuCadastroFuncionarios.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 34</value>
+  </data>
+  <data name="MenuCadastroFuncionarios.Text" xml:space="preserve">
+    <value>Funcionários</value>
+  </data>
+  <data name="MenuCadastroClientes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 34</value>
+  </data>
+  <data name="MenuCadastroClientes.Text" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="MenuCadastroUsuarios.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 34</value>
+  </data>
+  <data name="MenuCadastroUsuarios.Text" xml:space="preserve">
+    <value>Usuários</value>
+  </data>
+  <data name="MenuCadastroCargos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 34</value>
+  </data>
+  <data name="MenuCadastroCargos.Text" xml:space="preserve">
+    <value>Cargos</value>
+  </data>
+  <data name="MenuCadastroFornecedores.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 34</value>
+  </data>
+  <data name="MenuCadastroFornecedores.Text" xml:space="preserve">
+    <value>Fornecedores</value>
+  </data>
+  <data name="MenuCadastro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 29</value>
+  </data>
+  <data name="MenuCadastro.Text" xml:space="preserve">
+    <value>Cadastro</value>
+  </data>
+  <data name="MenuProdutosProdutos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 34</value>
+  </data>
+  <data name="MenuProdutosProdutos.Text" xml:space="preserve">
+    <value>Produtos</value>
+  </data>
+  <data name="MenuProdutosEstoque.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 34</value>
+  </data>
+  <data name="MenuProdutosEstoque.Text" xml:space="preserve">
+    <value>Estoque</value>
+  </data>
+  <data name="MenuProdutos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 29</value>
+  </data>
+  <data name="MenuProdutos.Text" xml:space="preserve">
+    <value>Produtos</value>
+  </data>
+  <data name="MenuMovimentacoesFluxoCaixa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 34</value>
+  </data>
+  <data name="MenuMovimentacoesFluxoCaixa.Text" xml:space="preserve">
+    <value>Fluxo Caixa</value>
+  </data>
+  <data name="MenuMovimentacoesLancarVendas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 34</value>
+  </data>
+  <data name="MenuMovimentacoesLancarVendas.Text" xml:space="preserve">
+    <value>Lançar Vendas</value>
+  </data>
+  <data name="MenuMovimentacoesEntradasSaidas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 34</value>
+  </data>
+  <data name="MenuMovimentacoesEntradasSaidas.Text" xml:space="preserve">
+    <value>Entradas / Saidas</value>
+  </data>
+  <data name="MenuMovimentacoesDespesas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 34</value>
+  </data>
+  <data name="MenuMovimentacoesDespesas.Text" xml:space="preserve">
+    <value>Despesas</value>
+  </data>
+  <data name="MenuMovimentações.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 29</value>
+  </data>
+  <data name="MenuMovimentações.Text" xml:space="preserve">
+    <value>Movimentações</value>
+  </data>
+  <data name="MenuRelatorioProdutos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 34</value>
+  </data>
+  <data name="MenuRelatorioProdutos.Text" xml:space="preserve">
+    <value>Produtos</value>
+  </data>
+  <data name="MenuRelatorioVendas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 34</value>
+  </data>
+  <data name="MenuRelatorioVendas.Text" xml:space="preserve">
+    <value>Vendas</value>
+  </data>
+  <data name="MenuRelatorioMovimentos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 34</value>
+  </data>
+  <data name="MenuRelatorioMovimentos.Text" xml:space="preserve">
+    <value>Movimentos</value>
+  </data>
+  <data name="MenuRelatorioEntradasSaidas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 34</value>
+  </data>
+  <data name="MenuRelatorioEntradasSaidas.Text" xml:space="preserve">
+    <value>Entradas / Saidas</value>
+  </data>
+  <data name="MenuRelatorioDespesas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 34</value>
+  </data>
+  <data name="MenuRelatorioDespesas.Text" xml:space="preserve">
+    <value>Despesas</value>
+  </data>
+  <data name="MenuRelatório.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 29</value>
+  </data>
+  <data name="MenuRelatório.Text" xml:space="preserve">
+    <value>Relatório</value>
+  </data>
+  <data name="MenuSair.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 29</value>
+  </data>
+  <data name="MenuSair.Text" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="MenuForm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="MenuForm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>886, 33</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="MenuForm.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="MenuForm.Text" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="&gt;&gt;MenuForm.Name" xml:space="preserve">
+    <value>MenuForm</value>
+  </data>
+  <data name="&gt;&gt;MenuForm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuForm.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MenuForm.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="img04.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="img04.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 253</value>
+  </data>
+  <data name="img04.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 115</value>
+  </data>
+  <data name="img04.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="img04.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;img04.Name" xml:space="preserve">
+    <value>img04</value>
+  </data>
+  <data name="&gt;&gt;img04.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;img04.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;img04.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="img03.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="img03.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 253</value>
+  </data>
+  <data name="img03.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 115</value>
+  </data>
+  <data name="img03.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="img03.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;img03.Name" xml:space="preserve">
+    <value>img03</value>
+  </data>
+  <data name="&gt;&gt;img03.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;img03.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;img03.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="img02.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="img02.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 91</value>
+  </data>
+  <data name="img02.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 115</value>
+  </data>
+  <data name="img02.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="img02.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;img02.Name" xml:space="preserve">
+    <value>img02</value>
+  </data>
+  <data name="&gt;&gt;img02.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;img02.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;img02.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="img01.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="img01.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 91</value>
+  </data>
+  <data name="img01.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 115</value>
+  </data>
+  <data name="img01.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="img01.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;img01.Name" xml:space="preserve">
+    <value>img01</value>
+  </data>
+  <data name="&gt;&gt;img01.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;img01.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;img01.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>63</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>886, 444</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;MenuCadastro.Name" xml:space="preserve">
+    <value>MenuCadastro</value>
+  </data>
+  <data name="&gt;&gt;MenuCadastro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuCadastroFuncionarios.Name" xml:space="preserve">
+    <value>MenuCadastroFuncionarios</value>
+  </data>
+  <data name="&gt;&gt;MenuCadastroFuncionarios.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuCadastroClientes.Name" xml:space="preserve">
+    <value>MenuCadastroClientes</value>
+  </data>
+  <data name="&gt;&gt;MenuCadastroClientes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuCadastroUsuarios.Name" xml:space="preserve">
+    <value>MenuCadastroUsuarios</value>
+  </data>
+  <data name="&gt;&gt;MenuCadastroUsuarios.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuCadastroCargos.Name" xml:space="preserve">
+    <value>MenuCadastroCargos</value>
+  </data>
+  <data name="&gt;&gt;MenuCadastroCargos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuCadastroFornecedores.Name" xml:space="preserve">
+    <value>MenuCadastroFornecedores</value>
+  </data>
+  <data name="&gt;&gt;MenuCadastroFornecedores.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuProdutos.Name" xml:space="preserve">
+    <value>MenuProdutos</value>
+  </data>
+  <data name="&gt;&gt;MenuProdutos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuProdutosProdutos.Name" xml:space="preserve">
+    <value>MenuProdutosProdutos</value>
+  </data>
+  <data name="&gt;&gt;MenuProdutosProdutos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuProdutosEstoque.Name" xml:space="preserve">
+    <value>MenuProdutosEstoque</value>
+  </data>
+  <data name="&gt;&gt;MenuProdutosEstoque.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuMovimentações.Name" xml:space="preserve">
+    <value>MenuMovimentações</value>
+  </data>
+  <data name="&gt;&gt;MenuMovimentações.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuMovimentacoesFluxoCaixa.Name" xml:space="preserve">
+    <value>MenuMovimentacoesFluxoCaixa</value>
+  </data>
+  <data name="&gt;&gt;MenuMovimentacoesFluxoCaixa.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuMovimentacoesLancarVendas.Name" xml:space="preserve">
+    <value>MenuMovimentacoesLancarVendas</value>
+  </data>
+  <data name="&gt;&gt;MenuMovimentacoesLancarVendas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuMovimentacoesEntradasSaidas.Name" xml:space="preserve">
+    <value>MenuMovimentacoesEntradasSaidas</value>
+  </data>
+  <data name="&gt;&gt;MenuMovimentacoesEntradasSaidas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuMovimentacoesDespesas.Name" xml:space="preserve">
+    <value>MenuMovimentacoesDespesas</value>
+  </data>
+  <data name="&gt;&gt;MenuMovimentacoesDespesas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuRelatório.Name" xml:space="preserve">
+    <value>MenuRelatório</value>
+  </data>
+  <data name="&gt;&gt;MenuRelatório.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuRelatorioProdutos.Name" xml:space="preserve">
+    <value>MenuRelatorioProdutos</value>
+  </data>
+  <data name="&gt;&gt;MenuRelatorioProdutos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuRelatorioVendas.Name" xml:space="preserve">
+    <value>MenuRelatorioVendas</value>
+  </data>
+  <data name="&gt;&gt;MenuRelatorioVendas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuRelatorioMovimentos.Name" xml:space="preserve">
+    <value>MenuRelatorioMovimentos</value>
+  </data>
+  <data name="&gt;&gt;MenuRelatorioMovimentos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuRelatorioEntradasSaidas.Name" xml:space="preserve">
+    <value>MenuRelatorioEntradasSaidas</value>
+  </data>
+  <data name="&gt;&gt;MenuRelatorioEntradasSaidas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuRelatorioDespesas.Name" xml:space="preserve">
+    <value>MenuRelatorioDespesas</value>
+  </data>
+  <data name="&gt;&gt;MenuRelatorioDespesas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuSair.Name" xml:space="preserve">
+    <value>MenuSair</value>
+  </data>
+  <data name="&gt;&gt;MenuSair.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmPrincipal</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
