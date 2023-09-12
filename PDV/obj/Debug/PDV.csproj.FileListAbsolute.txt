@@ -11,4 +11,4 @@ C:\Users\cliente\Desktop\sistema de vendas\PDV\obj\Debug\PDV.csproj.CoreCompileI
 C:\Users\cliente\Desktop\sistema de vendas\PDV\obj\Debug\pt-BR\PDV.resources.dll
 C:\Users\cliente\Desktop\sistema de vendas\PDV\obj\Debug\PDV.exe
 C:\Users\cliente\Desktop\sistema de vendas\PDV\obj\Debug\PDV.pdb
-C:\Users\cliente\Desktop\sistema de vendas\PDV\obj\Debug\PDV.Menu.Cadastro.FrmCadastro.resources
+C:\Users\cliente\Desktop\sistema de vendas\PDV\obj\Debug\PDV.Menu.Cadastro.FrmFuncionarios.resources

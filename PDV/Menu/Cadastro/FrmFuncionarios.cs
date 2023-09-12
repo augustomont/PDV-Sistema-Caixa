@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PDV.Menu.Cadastro
 {
-    public partial class FrmCadastro : Form
+    public partial class FrmFuncionarios : Form
     {
-        public FrmCadastro()
+        public FrmFuncionarios()
         {
             InitializeComponent();
         }

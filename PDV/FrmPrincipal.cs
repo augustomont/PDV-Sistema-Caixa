@@ -24,7 +24,7 @@ namespace PDV
 
         private void MenuCadastroFuncionarios_Click(object sender, EventArgs e)
         {
-            PDV.Menu.Cadastro.FrmCadastro frm = new Menu.Cadastro.FrmCadastro();
+            PDV.Menu.Cadastro.FrmFuncionarios frm = new Menu.Cadastro.FrmFuncionarios();
             frm.ShowDialog();
         }
     }
